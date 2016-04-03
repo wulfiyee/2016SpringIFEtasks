@@ -1,0 +1,212 @@
+/*任务二的样式表*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Microsoft YaHei UI", sans-serif;
+    list-style: none;
+}
+header{
+    background-color: rgb(51, 51, 51);
+    height: 100px;
+    width: 100%;
+    /*padding-left: 100px;*/
+    /*padding-right: 100px;*/
+}
+#logo{
+    float: left;
+}
+header a img{
+    margin-left: 100px;
+    width: 100px;
+    height: 100px;
+    vertical-align: top;
+}
+header nav{
+    float: right;
+    height: 100px;
+    line-height: 100px;
+    margin-right: 100px;
+}
+header ul li{
+    display: inline-block;
+}
+header ul a{
+    text-decoration: none;
+    color: blue;
+}
+header ul a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+footer{
+    background-color: rgb(51, 51, 51);
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+.mainWrap{
+    padding: 20px;
+    background-color:  rgb(222, 222, 222);
+    min-width: 610px;
+}
+article{
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 40px 20px;
+}
+aside{
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    float: left;
+    margin-left: -440px;
+}
+article h1{
+    font-size: 25px;
+    line-height: 40px;
+    vertical-align: middle;
+}
+article h2{
+    font-size: 20px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+.info {
+    font-size: 10px;
+    line-height: 20px;
+}
+article p{
+    line-height: 30px;
+    text-indent:30px;
+}
+
+#text2 section li{
+    line-height: 30px;
+}
+
+#text1 img, #text2 img{
+    width: 40%;
+    margin: 0 30%;
+}
+
+#text3 figure{
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+#text3 figure figcaption{
+    line-height: 30px;
+    text-align: center;
+}
+
+#text3 figure img{
+    width: 100px;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+#text4 ul{
+    line-height: 30px;
+}
+
+#text4 table{
+    border: 1px solid rgb(203, 203, 203);
+    border-collapse: collapse;
+    width: 100%;
+}
+th{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    text-align: left;
+    padding: 5px;
+}
+td{
+    padding: 5px;
+}
+ .lastRow{
+    background-color: rgb(203, 203, 203);
+}
+
+
+aside h2{
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    border-left: 3px solid rgb(203, 203, 203);
+    padding-left: 10px;
+}
+
+input{
+    padding: 2px;
+}
+
+aside p{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+aside .note{
+    margin-bottom: 30px;
+    color: rgb(166, 167, 195);
+    margin-left: 30%;
+}
+
+aside span{
+    width: 30%;
+    text-align: right;
+    display: inline-block;
+}
+
+aside textarea{
+    vertical-align: top;
+    font-size: 20px;
+}
+
+.submit{
+    width: 100%;
+    height: 30px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(51, 85, 208);
+}
+
+.clearfix{
+    *zoom: 1;
+}
+.clearfix:after{
+    content:".";
+    display:block;
+    height:0;
+    visibility:hidden;
+    clear:both;
+}
+
+.left{
+    width: 100%;
+    float: left;
+}
+
+.content{
+    min-width: 150px;
+    margin: 0 460px 0 0;
+    padding: 0px;
+    background-color: inherit;
+}
+#text4{
+    margin: 0;
+}
+
+.imgWrap{
+    width: 100%;
+}
