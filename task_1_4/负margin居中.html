@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>负margin居中</title>
+    <style type="text/css">
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            min-width: 400px;
+        }
+        .rect{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            width: 400px;
+            height: 200px;
+            background-color: #CCC;
+            margin-left: -200px;
+            margin-top: -100px;
+        }
+        .corner{
+            height: 50px;
+            width: 50px;
+            background-color: #fc0;
+        }
+        .topLeft{
+            border-bottom-right-radius: 100%;
+        }
+        .bottomRight{
+            border-top-left-radius: 100%;
+            position: absolute;
+            right: 0px;
+            bottom: 0px;
+        }
+    </style>
+</head>
+<body>
+        <div class="rect">
+            <div class="corner topLeft"></div>
+            <div class="corner bottomRight"></div>
+        </div>
+
+<script type="text/javascript">
+    var ob=document.getElementsByTagName("body")[0];
+    console.log(getComputedStyle(ob,"height"));
+//    console.log()
+</script>
+</body>
+</html>
